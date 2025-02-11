@@ -1,0 +1,21 @@
+:root {
+    --back: rgba(0, 0, 0, 1);
+    --body-normal-text-regular-font-family: "Apfel Grotezk", Helvetica;
+    --body-normal-text-regular-font-size: 16px;
+    --body-normal-text-regular-font-style: normal;
+    --body-normal-text-regular-font-weight: 400;
+    --body-normal-text-regular-letter-spacing: 0px;
+    --body-normal-text-regular-line-height: 24px;
+    --brand-coloraccent: rgba(203, 251, 69, 1);
+    --brand-colorprimary: rgba(22, 22, 23, 1);
+    --heading-h5-font-family: "Neue Machina", Helvetica;
+    --heading-h5-font-size: 21.329999923706055px;
+    --heading-h5-font-style: normal;
+    --heading-h5-font-weight: 400;
+    --heading-h5-letter-spacing: 0px;
+    --heading-h5-line-height: 24px;
+    --neutral-white: rgba(255, 255, 255, 1);
+    --neutrallight: rgba(236, 235, 246, 1);
+    --neutrallighter: rgba(243, 243, 243, 1);
+    --neutralneutral: rgba(35, 35, 37, 1);
+}

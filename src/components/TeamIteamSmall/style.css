@@ -1,0 +1,110 @@
+.team-iteam-small {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+  }
+  
+  .team-iteam-small .thumbnail {
+    background-color: #c4c4c4;
+    border-radius: 115px;
+    height: 230px;
+    position: relative;
+    width: 230px;
+  }
+  
+  .team-iteam-small .name-position {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+  }
+  
+  .team-iteam-small .text-wrapper {
+    color: #f3f3f3;
+    font-family: var(--heading-h5-font-family);
+    font-size: var(--heading-h5-font-size);
+    font-style: var(--heading-h5-font-style);
+    font-weight: var(--heading-h5-font-weight);
+    letter-spacing: var(--heading-h5-letter-spacing);
+    line-height: var(--heading-h5-line-height);
+    margin-top: -1.00px;
+    position: relative;
+    text-align: center;
+    width: 131px;
+  }
+  
+  .team-iteam-small .div {
+    color: #898990;
+    font-family: var(--body-normal-text-regular-font-family);
+    font-size: var(--body-normal-text-regular-font-size);
+    font-style: var(--body-normal-text-regular-font-style);
+    font-weight: var(--body-normal-text-regular-font-weight);
+    letter-spacing: var(--body-normal-text-regular-letter-spacing);
+    line-height: var(--body-normal-text-regular-line-height);
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .team-iteam-small .social-media {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    position: relative;
+  }
+  
+  .team-iteam-small .group {
+    height: 40px;
+    position: relative;
+    width: 42px;
+  }
+  
+  .team-iteam-small .overlap-group {
+    background-color: #232325;
+    border-radius: 20px;
+    height: 40px;
+    position: relative;
+    width: 40px;
+  }
+  
+  .team-iteam-small .text-wrapper-2 {
+    color: #f3f3f3;
+    font-family: "Font Awesome 5 Brands-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 13px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    text-align: center;
+    top: 8px;
+    white-space: nowrap;
+  }
+  
+  .team-iteam-small .text-wrapper-3 {
+    color: #f3f3f3;
+    font-family: "Font Awesome 5 Brands-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 12px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    text-align: center;
+    top: 8px;
+    white-space: nowrap;
+  }
+  
+  .team-iteam-small .overlap-wrapper {
+    height: 40px;
+    margin-right: -2.00px;
+    position: relative;
+    width: 42px;
+  }
+  

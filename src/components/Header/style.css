@@ -1,0 +1,108 @@
+.header {
+    height: 117px;
+    width: 1307px;
+  }
+  
+  .header .overlap-group-2 {
+    height: 117px;
+    position: relative;
+  }
+  
+  .header .div-2 {
+    height: 44px;
+    left: 0;
+    position: absolute;
+    top: 41px;
+    width: 1307px;
+  }
+  
+  .header .menu {
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 19px;
+    left: 236px;
+    position: absolute;
+    top: 10px;
+  }
+  
+  .header .text-wrapper-4 {
+    color: #f3f3f3;
+    font-family: "Anek Telugu", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: -1.00px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .header .frame {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 4px;
+    position: relative;
+  }
+  
+  .header .text-wrapper-5 {
+    color: #f2a900;
+    font-family: "Anek Telugu", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: -1.00px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .header .img {
+    height: 10px;
+    position: relative;
+    width: 10px;
+  }
+  
+  .header .div-wrapper {
+    align-items: flex-start;
+    background-color: #f2a900;
+    display: inline-flex;
+    gap: 10px;
+    left: 1170px;
+    padding: 10px 25px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .header .text-wrapper-6 {
+    color: #151517;
+    font-family: "Angkor", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: -1.00px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .header .icon-frame {
+    height: 24px;
+    left: 1089px;
+    position: absolute;
+    top: 10px;
+    width: 24px;
+  }
+  
+  .header .thumbnail-millibtc {
+    height: 117px;
+    left: 89px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 117px;
+  }
+  

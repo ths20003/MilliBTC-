@@ -1,0 +1,23 @@
+.button-secondary {
+    align-items: flex-start;
+    border: 1px solid;
+    border-color: var(--brand-colorprimary);
+    display: inline-flex;
+    gap: 10px;
+    padding: 15px 25px;
+    position: relative;
+  }
+  
+  .button-secondary .example-text {
+    color: #151517;
+    font-family: "Neue Machina-Ultrabold", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: -1.00px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
