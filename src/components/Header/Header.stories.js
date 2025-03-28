@@ -1,13 +1,19 @@
-import { Header } from ".";
+import React from "react";
+import { MemoryRouter } from "react-router-dom";
+import { Header } from "./Header";
 
-export default {
+const storyConfig = {
   title: "Components/Header",
   component: Header,
+  decorators: [(Story) => <MemoryRouter><Story /></MemoryRouter>],
 };
 
-export const Default = {
-  args: {
-    className: {},
-    overlapGroupClassName: {},
-  },
+export default storyConfig; 
+
+const Template = (args) => <Header {...args} />;
+
+export const Default = Template.bind({});
+Default.args = {
+  className: "",
+  overlapGroupClassName: "",
 };

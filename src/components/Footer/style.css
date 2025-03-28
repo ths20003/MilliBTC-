@@ -1,329 +1,56 @@
 .footer {
-    height: 387px;
-    width: 1303px;
-  }
-  
-  .footer .overlap {
-    height: 387px;
-    position: relative;
-  }
-  
-  .footer .div-3 {
-    height: 340px;
-    left: 2px;
-    position: absolute;
-    top: 47px;
-    width: 1301px;
-  }
-  
-  .footer .footer-bottom {
-    height: 51px;
-    left: 411px;
-    position: absolute;
-    top: 289px;
-    width: 482px;
-  }
-  
-  .footer .copyright {
-    color: var(--neutrallight);
-    font-family: "Anek Telugu", Helvetica;
-    font-size: 14px;
-    font-weight: 400;
-    left: 0;
-    letter-spacing: 0;
-    line-height: 24px;
-    opacity: 0.8;
-    position: absolute;
-    text-align: center;
-    top: 0;
-    white-space: nowrap;
-    width: 480px;
-  }
-  
-  .footer .social-media-2 {
-    align-items: flex-start;
-    display: inline-flex;
-    gap: 14px;
-    left: 170px;
-    position: absolute;
-    top: 33px;
-  }
-  
-  .footer .text-wrapper-8 {
-    color: #f2a900;
-    font-family: "Font Awesome 5 Brands-Regular", Helvetica;
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: 18px;
-    margin-top: -1.00px;
-    position: relative;
-    white-space: nowrap;
-    width: fit-content;
-  }
-  
-  .footer .text-wrapper-9 {
-    color: #f3f3f3;
-    font-family: "Font Awesome 5 Brands-Regular", Helvetica;
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: 18px;
-    margin-top: -1.00px;
-    position: relative;
-    white-space: nowrap;
-    width: fit-content;
-  }
-  
-  .footer .col {
-    height: 125px;
-    left: 776px;
-    position: absolute;
-    top: 16px;
-    width: 100px;
-  }
-  
-  .footer .text-wrapper-10 {
-    color: #ffffff;
-    font-family: "Angkor", Helvetica;
-    font-size: 14px;
-    font-weight: 400;
-    left: 0;
-    letter-spacing: 0;
-    line-height: 18px;
-    position: absolute;
-    top: 0;
-    white-space: nowrap;
-  }
-  
-  .footer .frame-2 {
-    align-items: flex-start;
-    display: inline-flex;
+  background-color: #000;
+  padding-bottom: 2px 0px;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-family: "Anek Telugu", sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: auto;          
+  padding: 0;            
+}
+
+.footer-logo {
+  height: 90px;
+  width: auto;
+  display: block;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.footer-location {
+  font-size: 16px;
+  color: #ccc;
+  margin: 0;
+}
+
+.footer-copyright {
+  font-size: 14px;
+  color: #F2A900;
+  margin: 0;
+}
+
+@media (max-width: 768px) { /* Responsive Stack on Mobile */
+  .footer-content-row {
     flex-direction: column;
-    gap: 10px;
-    left: 0;
-    padding: 10px 0px;
-    position: absolute;
-    top: 31px;
+    align-items: center;
+    text-align: center;
   }
-  
-  .footer .text-wrapper-11 {
-    color: #898990;
-    font-family: "Anek Telugu", Helvetica;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: 18px;
-    margin-top: -1.00px;
-    position: relative;
-    white-space: nowrap;
-    width: fit-content;
+
+  .footer {
+    text-align: center;
   }
-  
-  .footer .text-wrapper-12 {
-    color: #898990;
-    font-family: "Anek Telugu", Helvetica;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: 18px;
-    position: relative;
-    white-space: nowrap;
-    width: fit-content;
+
+  .footer-logo {
+    height: 80px;
   }
-  
-  .footer .col-2 {
-    height: 153px;
-    left: 997px;
-    position: absolute;
-    top: 16px;
-    width: 111px;
-  }
-  
-  .footer .col-3 {
-    height: 153px;
-    left: 0;
-    position: absolute;
-    top: 56px;
-    width: 352px;
-  }
-  
-  .footer .group-2 {
-    height: 50px;
-    left: 1px;
-    position: absolute;
-    top: 103px;
-    width: 338px;
-  }
-  
-  .footer .store-instance {
-    border-color: #ffffff94 !important;
-    border-radius: 7.89px !important;
-    height: 50px !important;
-    left: 175px !important;
-    position: absolute !important;
-    top: 0 !important;
-    width: 162px !important;
-  }
-  
-  .footer .design-component-instance-node {
-    height: 34px !important;
-    left: 7px !important;
-    top: 8px !important;
-    width: 30px !important;
-  }
-  
-  .footer .store-2 {
-    height: 39px !important;
-    left: 45px !important;
-    width: 114px !important;
-  }
-  
-  .footer .store-3 {
-    height: 22px !important;
-    top: 17px !important;
-    width: 112px !important;
-  }
-  
-  .footer .store-4 {
-    font-size: 11.8px !important;
-    letter-spacing: -0.36px !important;
-    white-space: nowrap !important;
-  }
-  
-  .footer .overlap-group-wrapper {
-    background-color: var(--back);
-    border-radius: 7.8px;
-    height: 50px;
-    left: 0;
-    overflow: hidden;
-    position: absolute;
-    top: 0;
-    width: 162px;
-  }
-  
-  .footer .overlap-group-3 {
-    background-image: url(https://c.animaapp.com/z70d6PNe/img/background-2.svg);
-    background-size: 100% 100%;
-    height: 49px;
-    position: relative;
-    top: 1px;
-  }
-  
-  .footer .logo-2 {
-    height: 28px;
-    left: 11px;
-    position: absolute;
-    top: 10px;
-    width: 23px;
-  }
-  
-  .footer .text {
-    height: 36px;
-    left: 48px;
-    position: absolute;
-    top: 7px;
-    width: 103px;
-  }
-  
-  .footer .text-wrapper-13 {
-    color: #ffffff;
-    font-family: "Helvetica Neue-Regular", Helvetica;
-    font-size: 11.7px;
-    font-weight: 400;
-    left: 7px;
-    letter-spacing: 0.23px;
-    line-height: normal;
-    position: absolute;
-    top: 0;
-  }
-  
-  .footer .app-store-2 {
-    height: 20px;
-    left: 0;
-    position: absolute;
-    top: 16px;
-    width: 98px;
-  }
-  
-  .footer .we-re-headquartered {
-    color: #898990;
-    font-family: "Anek Telugu", Helvetica;
-    font-size: 15px;
-    font-weight: 400;
-    left: 0;
-    letter-spacing: 0;
-    line-height: 24px;
-    position: absolute;
-    top: 0;
-    width: 350px;
-  }
-  
-  .footer .col-4 {
-    height: 153px;
-    left: 554px;
-    position: absolute;
-    top: 16px;
-    width: 142px;
-  }
-  
-  .footer .overlap-2 {
-    height: 153px;
-    position: relative;
-  }
-  
-  .footer .group-3 {
-    height: 153px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 88px;
-  }
-  
-  .footer .text-wrapper-14 {
-    color: #f2a900;
-    font-family: "Anek Telugu", Helvetica;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: 18px;
-    margin-top: -1.00px;
-    position: relative;
-    white-space: nowrap;
-    width: fit-content;
-  }
-  
-  .footer .frame-3 {
-    align-items: flex-start;
-    background-color: #f2a90021;
-    border-radius: 8px;
-    display: inline-flex;
-    gap: 10px;
-    left: 57px;
-    padding: 0px 10px;
-    position: absolute;
-    top: 97px;
-  }
-  
-  .footer .text-wrapper-15 {
-    color: #f2a900;
-    font-family: "Anek Telugu", Helvetica;
-    font-size: 13px;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: 24px;
-    margin-top: -1.00px;
-    position: relative;
-    white-space: nowrap;
-    width: fit-content;
-  }
-  
-  .footer .thumbnail-millibtc-2 {
-    height: 117px;
-    left: 0;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    width: 117px;
-  }
-  
+}

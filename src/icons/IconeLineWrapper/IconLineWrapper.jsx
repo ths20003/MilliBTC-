@@ -1,5 +1,5 @@
 import React from "react";
-import { Icon2424LineGeneralFlag } from "../../icons/Icon2424LineGeneralFlag";
+import { Icon2424LineGeneralFlag } from "../Icon2424LineGeneralFlag";
 import "./style.css";
 
 export const IconLineWrapper = () => {

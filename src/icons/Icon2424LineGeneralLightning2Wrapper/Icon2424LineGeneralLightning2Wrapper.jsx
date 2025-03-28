@@ -1,5 +1,5 @@
 import React from "react";
-import { Icon2424LineGeneralLightning2 } from "../../icons/Icon2424LineGeneralLightning2";
+import { Icon2424LineGeneralLightning2 } from "../Icon2424LineGeneralLightning2";
 import "./style.css";
 
 export const Icon2424LineGeneralLightning2Wrapper = () => {
