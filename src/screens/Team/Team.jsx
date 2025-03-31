@@ -1,8 +1,8 @@
 import React from 'react';
 
-const ContactUs = () => {
+export const Team = () => {
     return (
-        <div className='contact-us'>
+        <div className='team'>
             <h1>Contact Us</h1>
             <form>
                 <div>
@@ -22,5 +22,3 @@ const ContactUs = () => {
         </div>
     );
 };
-
-export default ContactUs;

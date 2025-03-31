@@ -11,7 +11,6 @@ export const Header = ({ className = "", overlapGroupClassName = "" }) => {
           className="thumbnail-millibtc"
           alt="MilliBTC Logo"
           src={milliBTCLogoWhite}
-          role="img"
         />
         <nav className="menu">
           {menuItems.map((item, index) => (
