@@ -1,21 +1,119 @@
+/* Global Home Styles */
 .home {
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  background-color: #000;
+  background-color: #1111;
   color: #fff;
 }
 
-.our-mission, .who-we-are {
-  background-color: #111;
+/* ---------- Hero Section ---------- */
+.hero-section {
+  width: 100%;
+  background-color: #5f84c9;
   padding: 3rem;
-  color: #fff;
-  margin-top: 20px;
 }
 
-.stat-number {
-  color: #F2A900;
-  font-size: 2rem;
+.hero-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.hero-text {
+  flex: 1 1 400px;
+  margin-right: 2rem;
+}
+
+.hero-headline {
+  font-size: 48pt;
   font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.hero-subheadline {
+  font-size: 20pt;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.hero-button {
+  width: 200px;
+  height: 50px;
+  background-color: #F2A900;
+  color: #fff;
+  font-size: 16pt;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.hero-expanded-text {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.hero-image {
+  flex: 1 1 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ---------- What We Do Section ---------- */
+.what-we-do {
+  width: 100%;
+  background-color: #ae438e;
+  padding: 3rem;
+  text-align: center;
+}
+
+.what-we-do-title {
+  font-size: 32pt;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+.what-we-do-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.what-we-do-column {
+  width: 350px;
+  min-height: 200px; /*keeps minimum height, but grows with text*/
+  background-color: #222;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.what-we-do-icon {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 1rem;
+  object-fit: contain;
 }

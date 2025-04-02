@@ -1,22 +1,27 @@
 import React from "react";
 import "./style.css";
-import milliBTCLogoWhite from "../../images/milliBTCLogoWhite.png";
 import { menuItems } from "./menuData";
 import MenuItem from "./MenuItem";
+import milliBTCLogoWhite from "../../images/milliBTCLogoWhite.png";
+import { Icon } from "@iconify/react";
+import lightningBolt from "@iconify/icons-mdi/flash";
 
-export const Header = ({ className = "", overlapGroupClassName = "" }) => {
+export const Header = ({ className = "" }) => {
   return (
     <header className={`header ${className}`}>
+      <div className="logo-section">
         <img
           className="thumbnail-millibtc"
           alt="MilliBTC Logo"
           src={milliBTCLogoWhite}
         />
-        <nav className="menu">
-          {menuItems.map((item, index) => (
-            <MenuItem key={index} {...item} />
-          ))}
-        </nav>
+        <Icon icon={lightningBolt} className="bolt-icon" />
+      </div>
+      <nav className="menu">
+        {menuItems.map((item, index) => (
+          <MenuItem key={index} {...item} />
+        ))}
+      </nav>
     </header>
   );
 };

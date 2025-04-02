@@ -1,14 +1,14 @@
 import React from "react";
-import OurMission from "./OurMission";
-import WhoWeAre from "./WhoWeAre";
+import HeroSection from "./HeroSection";
+import WhatWeDo from "./WhatWeDo";
 import "./style.css";
 
 export const Home = () => {
   return (
     <div className="home">
       
-      <OurMission />
-      <WhoWeAre />
+      <HeroSection />
+      <WhatWeDo />
       
     </div>
   );
