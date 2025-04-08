@@ -1,3 +1,146 @@
 .team {
-    background-color: #111;
+    background-color: #1a1a2e;
+    color: white;
+    padding: 4rem 2rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form {
+    background-color: #2e2e3a;
+    padding: 2.5rem;
+    border-radius: 16px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 4rem;
+}
+
+form:hover {
+    transform: scale(1.01);
+}
+
+form h1 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    text-align: center;
+    color: #f2a900;
+}
+
+form div {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.9rem 1rem;
+    border-radius: 10px;
+    border: 2px solid #444;
+    font-size: 1rem;
+    background-color: #3a3a4a;
+    color: white;
+    transition: border 0.3s, box-shadow 0.3s;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #f2a900;
+    box-shadow: 0 0 8px rgba(255, 204, 0, 0.5);
+}
+
+textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+button {
+    width: 100%;
+    padding: 1rem;
+    background-color: #f2a900;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e6b800;
+}
+
+p {
+    margin-top: 1rem;
+    text-align: center;
+    color: #ccc;
+    font-size: 0.9rem;
+}
+
+.content-sections {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+}
+
+.team-section, .cta-section, .info-section {
+    background-color: #2e2e3a;
+    color: white;
+    border-radius: 16px;
+    padding: 2rem;
+    max-width: 800px;
+    width: 100%;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+.team-section h2, .cta-section h2 {
+    font-size: 1.8rem;
+    color: #f2a900;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.team-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.member {
+    text-align: center;
+}
+
+.member img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: 3px solid white;
+    border-radius: 12px;
+}
+
+.member p {
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+
+.team-description, .info-section p {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: center;
+    color: #ddd;
 }
