@@ -1,21 +1,23 @@
+@import "../../common/theme.css";
+
 .footer {
   width: 100%;
-  background-color: #1A2A44; 
   height: 50px;            
   display: flex;
   justify-content: center;
   align-items: center;
   color: #fff;
-  font-family: "Inter", "Anek Telugu", sans-serif;
+  font-family:var(--font-base);
   position: relative;
   overflow: hidden;
   margin-top: auto;
+  border-top: 1px solid var(--color-section);
 }
 
 .footer-content {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 2px;
 }
 
 .footer-logo {
@@ -24,14 +26,21 @@
   object-fit: contain;
 }
 
+.bolt-icon-footer {
+  font-size: 30px;
+  color: #F2A900;
+  opacity: 1;
+  transform: rotate(10deg);
+}
+
 .footer-text {
-  font-size: 12pt; /* 📝 Matches 14pt spec (~18.6px) */
-  color: #fff;
+  font-size: 12pt;
+  color: var(--font-color);
   margin: 0;
 }
 
 .footer-text a {
-  color: #fff;
+  color: var(--font-color);
   text-decoration: none;
 }
 
@@ -45,12 +54,6 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(
-    to right,
-    rgba(255, 111, 97, 0.05) 0%,
-    rgba(255, 111, 97, 0.05) 50%,
-    transparent 50%
-  );
   background-size: 20px 80px;
   pointer-events: none;
 }

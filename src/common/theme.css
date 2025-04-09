@@ -1,0 +1,18 @@
+
+:root {
+    --font-base: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --font-color:#2e2e3a;
+    --color-accent: #f2a900;
+    --color-background: #1a1a2e;
+    --color-section: #2e2e3a;
+    --color-text: #ffffff;
+    --color-secondary: #ccc;
+    --background-gradient-crypto: linear-gradient(
+    135deg,
+    #0d0d1e 0%,
+    #121232 30%,
+    #1a1a3a 60%,
+    #2d2d52 100%
+  );
+  }
+  

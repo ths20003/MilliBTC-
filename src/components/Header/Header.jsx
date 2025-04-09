@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import { menuItems } from "./menuData";
 import MenuItem from "./MenuItem";
-import milliBTCLogoWhite from "../../images/milliBTCLogoWhite.png";
+import milliBTCLogoBlack from "../../images/mlliBTCLogoBlack.png";
 import { Icon } from "@iconify/react";
 import lightningBolt from "@iconify/icons-mdi/flash";
 
@@ -13,7 +13,7 @@ export const Header = ({ className = "" }) => {
         <img
           className="thumbnail-millibtc"
           alt="MilliBTC Logo"
-          src={milliBTCLogoWhite}
+          src={milliBTCLogoBlack}
         />
         <Icon icon={lightningBolt} className="bolt-icon" />
       </div>
