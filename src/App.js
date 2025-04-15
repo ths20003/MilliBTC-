@@ -4,7 +4,7 @@ import { Header } from "./components/Header/Header";
 import { Footer } from "./components/Footer/Footer";
 import "./App.css";
 import { Home } from "./screens/Home/Home";
-import { Education } from "./screens/Education/Education";
+import { Education } from './screens/Education';
 import { Team } from "./screens/Team";
 
 function App() {
