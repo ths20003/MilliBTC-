@@ -1,5 +1,4 @@
 import React from "react";
-import { colors } from "../../common/colors";
 import { fonts } from "../../common/fonts";
 import LightningNetworkNode from "../../images/bitcoin-lightning-network-for-payments.jpg";
 import CoinsSafeShopping from "../../images/coins-safe-shopping.png";

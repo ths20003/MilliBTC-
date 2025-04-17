@@ -1,114 +1,130 @@
+@import "../../common/theme.css";
+@import "../../common/card.css";
 
 @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
 .education-page {
-    background-image: url("/src/images/BG.png"), linear-gradient(160deg, #1A2A44 0%, #0D1B2A 100%);
-    background-size: auto, cover;
-    background-repeat: repeat, no-repeat;
-    font-family: var(--font-base);
-    background-color: #1A2A44;
+  color: #fff;
+  font-family: var(--font-base);
+  animation: fadeIn 1s ease-in-out;
 }
 
 .education-section {
-    padding: 4rem 2rem;
-    text-align: center;
+  background-image: url("/src/images/EducationBackground.png");
+  background-repeat: repeat;
+  background-position: center;
+  padding: 4rem 2rem; /* Already flexible */
+  text-align: center;
+  animation: slideInUp 1s ease-in-out;
 }
 
 .education-section h1 {
-    font-size: 32pt;
-    color: #FFFFFF;
-    font-weight: bold;
-    margin-bottom: 2rem;
-    line-height: 1.2;
-    max-width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+  font-size: 3rem;
+  color: var(--color-accent);
+  font-weight: bold;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+  text-shadow: 0 0 1rem rgba(255, 255, 255, 0.2);
 }
 
 .education-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
 }
 
 .education-block {
-    max-width: 500px;
-    background-color: #1A2A44;
-    color: #FFFFFF;
-    padding: 20px 40px;
-    margin: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    text-align: justify;
-    line-height: 1.6;
-    font-size: 16px;
+  max-width: 37.5rem; /* 600px */
+  background-color: #2e2e3a;
+  background-image: url("/src/images/BG.png");
+  background-size: contain, cover;
+  background-position: top left, center;
+  background-blend-mode: overlay;
+  color: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.4);
+  font-size: 1rem;
+  line-height: 1.6;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.education-block:hover {
+  transform: translateY(-0.3125rem); /* -5px */
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
 }
 
 .map-image {
-    width: 300px;
-    height: auto;
-    border: 2px solid #FF6F61;
-    border-radius: 8px;
+  width: 100%;
+  max-width: 25rem; /* 400px */
+  height: auto;
+  border: 0.125rem solid var(--color-accent);
+  border-radius: 0.75rem;
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.3);
 }
 
 .see-map-button {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 .see-map-button button {
-    width: 200px;
-    height: 50px;
-    font-size: 1rem;
+  padding: 1rem 2rem;
+  background-color: #f2a900;
+  color: #000;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.5rem !important;
+  cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s ease;
+  width: 100%;
+  max-width: 20rem; /* 320px */
 }
 
-@media (max-width: 600px) {
-    .see-map-button button {
-        width: 90%;
-        font-size: 1rem;
-    }
+.see-map-button button:hover {
+  background-color: #e6b800;
+  transform: scale(1.05);
 }
 
 .btc-map-section {
-    padding: 4rem 2rem;
-    background-color: #FFFFFF;
-    color: #1A2A44;
-    text-align: center;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  padding: 4rem 2rem;
+  background-image: url("/src/images/net.png");
+  background-position: top left, center;
+  background-blend-mode: overlay;
+  text-align: center;
 }
 
 .btc-map-section h2 {
-    font-size: 2rem;
-    margin-bottom: 2rem;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: var(--color-accent);
 }
 
 .btc-map-container img {
-    width: 800px;
-    max-width: 100%;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 50rem; /* 800px */
+  border-radius: 0.75rem;
+  box-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.3);
 }
 
 .btc-map-caption,
 .btc-map-powered {
-    color: #1A2A44;
-    font-weight: 500;
-    font-size: 16px;
-    text-align: center;
+  font-weight: 500;
+  font-size: 1rem;
+  text-align: center;
+  color: #1A2A44;
 }
 
-.btc-map-description,
 .btc-map-description p {
-    color: #1A2A44 !important;
-    font-weight: 500;
-    font-size: 16px;
-    text-align: center;
-    line-height: 1.6;
-    margin-top: 2rem;
-    padding: 0 1rem;
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+.btc-map-description:hover {
+  transform: translateY(-0.3125rem); /* -5px */
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
 }
