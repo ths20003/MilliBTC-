@@ -1,13 +1,17 @@
 import React from 'react';
 import './style.css';
 import { ButtonPrimary } from '../../buttons/ButtonPrimary/ButtonPrimary';
-import worldMap from '../../images/globalNetworkMap.png';
+import worldMap from '../../images/GlobalNetwork.png';
+
 
 const Education = () => {
   return (
     <main className="education-page">
       <section className="education-section">
-        <h1>Unlock Crypto’s Potential for Your Business</h1>
+        <h1>
+          Unlock Crypto’s Potential<br />
+          for Your Business
+        </h1>
         <div className="education-content">
           <div className="education-block">
             <h2>Growing Adoption</h2>
@@ -44,7 +48,7 @@ const Education = () => {
         <div className="btc-map-container">
           <iframe
             title="BTC Map"
-            src="https://btcmap.org/map"
+            src="https://btcmap.org/map/#4/39.50/-98.35"
             width="100%"
             height="450"
             style={{ 
@@ -63,7 +67,7 @@ const Education = () => {
           </p>
         </div>
 
-        <div className="btc-map-description">
+        <div className="btc-map-description card-dark">
           <p>
             Hundreds of merchants worldwide accept Bitcoin, and our Lightning node on Bitcoinize links you with speed and low fees.
           </p>
