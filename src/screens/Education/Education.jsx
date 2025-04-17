@@ -3,6 +3,7 @@ import './style.css';
 import { ButtonPrimary } from '../../buttons/ButtonPrimary/ButtonPrimary';
 import worldMap from '../../images/globalNetworkMap.png';
 
+
 const Education = () => {
   return (
     <main className="education-page">
@@ -44,7 +45,7 @@ const Education = () => {
         <div className="btc-map-container">
           <iframe
             title="BTC Map"
-            src="https://btcmap.org/map"
+            src="https://btcmap.org/map/#4/39.50/-98.35"
             width="100%"
             height="450"
             style={{ 
