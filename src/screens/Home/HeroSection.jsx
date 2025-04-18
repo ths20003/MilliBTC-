@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { colors } from "../../common/colors";
 import { fonts } from "../../common/fonts";
 import { ButtonPrimary } from "../../buttons/ButtonPrimary/ButtonPrimary";
 import PaymentIllustration from "../../images/Bitcoin-lightning-wallet.jpg.webp";
@@ -9,7 +8,7 @@ import "./style.css";
 const HeroSection = () => {
   return (
     <section className="hero-section"
-    style={{ fontFamily: fonts.base }}
+      style={{ fontFamily: fonts.base }}
     >
       <div className="hero-content">
         <div className="hero-text">
