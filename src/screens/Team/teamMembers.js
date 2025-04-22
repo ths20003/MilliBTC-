@@ -6,7 +6,7 @@ import abraham from '../../images/abraham.png';
 
 const teamMembers = [
   {
-    name: 'Brian Jay',
+    name: 'Brian',
     image: brian,
   },
   {
