@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './style.css';
 import emailjs from '@emailjs/browser';
+import teamMembers from './teamMembers';
 
 export const Team = () => {
     const [formData, setFormData] = useState({
@@ -66,10 +67,10 @@ export const Team = () => {
                 <section className="team-section">
                     <h2>Meet the MilliBTC Team</h2>
                     <div className="team-grid">
-                        {['Brian Jay', 'Dedeep Singu', 'Kat Reagan', 'Toyi Shimizu-Ruffne', 'Abraham Mustafa'].map((name, index) => (
+                        {teamMembers.map((member, index) => (
                             <div className="member" key={index}>
-                                <img src={`https://via.placeholder.com/300?text=${name.split(' ')[0]}`} alt={name} />
-                                <p>{name}</p>
+                            <img src={member.image} alt={member.name} />
+                            <p>{member.name}</p>
                             </div>
                         ))}
                     </div>
