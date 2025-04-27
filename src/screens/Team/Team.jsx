@@ -23,14 +23,14 @@ export const Team = () => {
     
         try {
             const result = await emailjs.send(
-                'service_26ruc37',            // Service ID
-                'template_dw8l9lb',           // Template ID
+                'service_26ruc37',    // Service ID
+                'template_dw8l9lb',   // Template ID
                 {
-                    from_name: 'MilliBTC Test',
-                    from_email: 'test@example.com',
-                    message: 'This is a hardcoded test message from MilliBTC form.',
+                    name: formData.name,     
+                    email: formData.email,     
+                    title: formData.message,     
                 },
-                '0TVsWxLp119ynXUq9'           // Public Key
+                '0TVsWxLp119ynXUq9'
             );
     
             console.log('EmailJS Success:', result.status, result.text);
