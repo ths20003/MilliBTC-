@@ -1,8 +1,8 @@
 import brian from '../../images/brian.png';
 import dedeep from '../../images/dedeep.png';
-import kat from '../../images/kat.png';
+import kat from '../../images/kat.jpeg';
 import toyi from '../../images/toyi.png';
-import abraham from '../../images/abraham.png';
+import abraham from '../../images/abraham.jpeg';
 
 const teamMembers = [
   {
