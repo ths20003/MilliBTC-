@@ -58,6 +58,23 @@
   pointer-events: none;
 }
 
+.footer-links {
+  display: flex;
+  gap: 1rem;
+  margin-left: 1rem;
+  font-size: 12pt;
+}
+
+.footer-links a {
+  color: var(--font-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 390px) {
   .footer {
     display: flex;

@@ -1,0 +1,71 @@
+@import "./theme.css";
+
+.document-page {
+  max-width: 850px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  color: var(--font-color);
+  font-family: var(--font-base);
+  line-height: 1.8;
+}
+
+.document-page h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.document-page h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.document-page p {
+  font-size: 15px;
+  color: var(--font-color);
+  margin-bottom: 1rem;
+}
+
+.document-page ul {
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.document-page ul li {
+  font-size: 15px;
+  margin-bottom: 0.5rem;
+  list-style-type: disc;
+}
+
+.document-page strong {
+  color: var(--font-color);
+}
+
+.doc-link {
+    color: var(--font-color);
+    text-decoration: underline;
+  }
+  .doc-link:hover {
+    text-decoration: none;
+  }  
+
+@media (max-width: 768px) {
+  .document-page {
+    padding: 1rem;
+  }
+
+  .document-page h1 {
+    font-size: 24px;
+  }
+
+  .document-page h2 {
+    font-size: 18px;
+  }
+
+  .document-page p,
+  .document-page ul li {
+    font-size: 14px;
+  }
+}
